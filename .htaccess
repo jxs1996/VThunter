@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+        RewriteEngine on
+        #http://httpd.apache.org/docs/2.2/mod/mod_rewrite.html#rewritebase
+        # uncomment to set relatived www root dir
+        #RewriteBase http://qinlab.sls.cuhk.edu.hk/
+        RewriteRule !\.(js|ico|gif|jpg|png|css|eot|svg|ttf|woff|woff2|pdf|zip|txt)$ index.php
+        #RewriteRule
+</IfModule>
